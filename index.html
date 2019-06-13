@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Homework #4</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+  <div class="jumbotron" style="background-color: green; color: black">
+    <div class="container">
+
+      <h1 class="text-center"><b>Crystal Madness!</b></h1>
+
+
+    </div>
+  </div>
+
+  <div class="card mb-4">
+    <div class="card-header text-center" style="background-color: lightblue">
+      <h3><b>Instructions</b></h3>
+    </div>
+    <div class="card-body">
+
+      <p class="card-text text-center font-weight-bold">You will be given a random number at the start of the game.</p>
+      <br>
+      <p class="card-text text-center font-weight-bold">There are four crystals below. By clicking on a crystal you will
+        add a specific amount of point to your total score.</P>
+      <br>
+      <p class="card-text text-center font-weight-bold">You will win the game by matching your total score to the random
+        number, you lose the game if your total score goes above the random number.</p>
+      <br>
+      <p class="card-text text-center font-weight-bold">The value of each crystal is hidden from you until you click on
+        it.</p>
+      <br>
+      <p class="card-text text-center font-weight-bold">Each time when the game starts, the game will change the values
+        of each crystal</p>
+
+
+    </div>
+  </div>
+  </div>
+  </div>
+  <br><br>
+
+  <div class="row justify-content-center">
+    <div class="col-lg-3">
+      <div class="card" style="background-color:lightslategrey">
+        <div class="card-body">
+          <h3 class="card-title text-center" ><strong>Target Score</strong></h3>
+          <p class="card-text text-center" id="targetScore"><b></b></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3">
+      <div class="card" style="background-color:lightslategrey">
+        <div class="card-body">
+          <h3 class="card-title text-center"><strong>Your Score</strong></h3>
+          <p class="card-text text-center"  id="yourScore"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <br><br>
+  <hr>
+
+
+  <div class="card" style="background-color:darkorange">
+    <h1 class="card-header text-center"><b>Crystal Selection</b></h1>
+
+    <div class="card-body text-center">
+      <img src="./assets\images\6ecd13_7f05c1dbe899493d92271d9208b4ddb1_e1cd48a0-737d-4ac0-bbe7-427a1a9f6bb1_480x.jpeg"
+        id="Blue">
+      <img src="./assets\images\71GADww3MwL._SR500,500_.jpg" id="Green">
+      <img src="./assets\images\flameaura350.jpg" id="Red">
+      <img
+        src="./assets\images\kisspng-the-crystal-bible-a-definitive-guide-to-crystals-diamond-5ac3eb5cb99a93.1650471015227892127602.jpg"
+        id="Yellow">
+    </div>
+  </div>
+
+
+
+
+
+
+
+  <br><br>
+
+  <div class="row">
+    <div class="col-lg-6">
+
+      <div class="card">
+        <div class="card-header font-weight-bold text-center" style="background-color: black; color: white">
+          <h2>Win Count</h2>
+        </div>
+        <div class="card-body text-center">
+
+          <p class="card-text">
+            <h3><b id = "Win">0</b></h3>
+          </p>
+
+        </div>
+      </div>
+
+
+    </div>
+    <div class="col-lg-6">
+
+      <div class="card">
+        <div class="card-header font-weight-bold text-center" style="background-color: black; color: white">
+          <h2>Loss Count</h2>
+        </div>
+        <div class="card-body text-center">
+
+          <p class="card-text">
+            <h3><b id = "Loss">0</b></h3>
+          </p>
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  </div>
+
+
+  </div>
+
+
+
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="assets\javascript\game.js"></script>
+</body>
+
+</html>
